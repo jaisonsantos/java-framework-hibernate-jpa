@@ -8,6 +8,12 @@ ALTER TABLE t_item_compra_join_column_2 DROP CONSTRAINT ttmcmprjnclmn2crcb
 ALTER TABLE t_etiquetas DROP CONSTRAINT ttqtasLvrtiquetaID
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttmcmptnsCmprD
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttemcompraRcbD
+ALTER TABLE t_junc_arts_cd DROP CONSTRAINT tjunc_arts_cdce_cd
+ALTER TABLE t_junc_arts_cd DROP CONSTRAINT tjncartscdcartista
+ALTER TABLE t_noticia_ordenado_t_comentarios_ordenado DROP CONSTRAINT tntcrdndtcmcmntrsD
+ALTER TABLE t_noticia_ordenado_t_comentarios_ordenado DROP CONSTRAINT tntcrdndtcNtcrdndD
+ALTER TABLE t_noticia_indexado_t_comentario_indexado DROP CONSTRAINT tntcndxdtcNtcndxdD
+ALTER TABLE t_noticia_indexado_t_comentario_indexado DROP CONSTRAINT tntcndxdtcmcmntrsD
 DROP TABLE LIVRO
 DROP TABLE PESSOA
 DROP TABLE t_endereco
@@ -29,6 +35,16 @@ DROP TABLE t_item_compra_join_column
 DROP TABLE t_recibo_join_column
 DROP TABLE t_item_compra_join_column_2
 DROP TABLE t_recibo_join_column2
+DROP TABLE t_artistas
+DROP TABLE t_cd
+DROP TABLE t_comentarios_ordenado
+DROP TABLE t_noticia_ordenado
+DROP TABLE t_item_tabelao
+DROP TABLE t_comentario_indexado
+DROP TABLE t_noticia_indexado
 DROP TABLE t_etiquetas
 DROP TABLE t_recibo_t_item_compra
+DROP TABLE t_junc_arts_cd
+DROP TABLE t_noticia_ordenado_t_comentarios_ordenado
+DROP TABLE t_noticia_indexado_t_comentario_indexado
 DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'

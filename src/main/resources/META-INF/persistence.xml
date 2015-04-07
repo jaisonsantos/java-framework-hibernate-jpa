@@ -23,6 +23,15 @@
     <class>cm.java.jpa.entidades.ReciboJoinTable</class>
     <class>cm.java.jpa.entidades.ItemCompraJoinColumn</class>
     <class>cm.java.jpa.entidades.ReciboJoinColumn</class>
+    <class>cm.java.jpa.entidades.Artista</class>
+    <class>cm.java.jpa.entidades.CD</class>
+    <class>cm.java.jpa.entidades.ComentarioOrdenado</class>
+    <class>cm.java.jpa.entidades.NoticiaOrdenado</class>
+    <class>cm.java.jpa.entidades.CDHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.ItemHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.LivroHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.ComentarioIndexado</class>
+    <class>cm.java.jpa.entidades.NoticiaIndexado</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="one"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -60,6 +69,15 @@
     <class>cm.java.jpa.entidades.ReciboJoinTable</class>
     <class>cm.java.jpa.entidades.ItemCompraJoinColumn</class>
     <class>cm.java.jpa.entidades.ReciboJoinColumn</class>
+    <class>cm.java.jpa.entidades.Artista</class>
+    <class>cm.java.jpa.entidades.CD</class>
+    <class>cm.java.jpa.entidades.ComentarioOrdenado</class>
+    <class>cm.java.jpa.entidades.NoticiaOrdenado</class>
+    <class>cm.java.jpa.entidades.CDHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.ItemHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.LivroHerancaTabelao</class>
+    <class>cm.java.jpa.entidades.ComentarioIndexado</class>
+    <class>cm.java.jpa.entidades.NoticiaIndexado</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="two"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
