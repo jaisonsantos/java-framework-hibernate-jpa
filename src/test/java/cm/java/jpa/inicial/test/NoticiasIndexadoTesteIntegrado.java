@@ -1,14 +1,11 @@
 package cm.java.jpa.inicial.test;
 
 import cm.java.jpa.entidades.ComentarioIndexado;
-import cm.java.jpa.entidades.ComentarioOrdenado;
 import cm.java.jpa.entidades.NoticiaIndexado;
-import cm.java.jpa.entidades.NoticiaOrdenado;
 import cm.java.jpa.inicial.TestePersistenciaAbstrato;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import org.junit.Ignore;
 
 public class NoticiasIndexadoTesteIntegrado extends TestePersistenciaAbstrato {
 
@@ -17,7 +14,7 @@ public class NoticiasIndexadoTesteIntegrado extends TestePersistenciaAbstrato {
   // ======================================
   @Test
   //@Ignore("@OrderColumn parece não funcionar")
-  public void shouldCreateOneNewsWithFourComments() throws Exception {
+  public void deveriaCriarUmaNoticiaComQuatroComentarios() throws Exception {
 
     NoticiaIndexado noticia = new NoticiaIndexado("Rio de Janeiro será sede das Olimpíadas em 2016");
     noticia.adicionaComentario(new ComentarioIndexado("ze", "Terceiro comentario", 1));
@@ -32,10 +29,10 @@ public class NoticiasIndexadoTesteIntegrado extends TestePersistenciaAbstrato {
     Long idNoticiaQueQueroEncontrar = noticia.getId();
 
     tx.begin();
-    NoticiaOrdenado noticiaProcurada = em.find(NoticiaOrdenado.class, idNoticiaQueQueroEncontrar);
+    NoticiaIndexado noticiaProcurada = em.find(NoticiaIndexado.class, idNoticiaQueQueroEncontrar);
 
     // Sem a chamada do metodo refresh, o teste não irá funcionar
-    // A anotação OrderBy especifica a ordenação dos elementos de uma coleção
+    // A anotação OrderColumn especifica a ordenação dos elementos de uma coleção
     // A chave aqui é a frase "quando a associação é recuperada".  
     // Nessa caso, quando o método find for executado, a associação ainda estará gerenciado e nenhuma recuperação lógica é feita.
     em.refresh(noticiaProcurada);
