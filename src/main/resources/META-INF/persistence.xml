@@ -32,6 +32,18 @@
     <class>cm.java.jpa.entidades.LivroHerancaTabelao</class>
     <class>cm.java.jpa.entidades.ComentarioIndexado</class>
     <class>cm.java.jpa.entidades.NoticiaIndexado</class>
+    <class>cm.java.jpa.entidades.CDHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.ItemHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.LivroHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.CDHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.ItemHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.LivroHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.CDHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.ItemHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.LivroHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.CDHerancaPorClasseSobrescrita</class>
+    <class>cm.java.jpa.entidades.ItemHerancaPorClasseSobrescrita</class>
+    <class>cm.java.jpa.entidades.LivroHerancaPorClasseSobrescrita</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="one"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -78,6 +90,18 @@
     <class>cm.java.jpa.entidades.LivroHerancaTabelao</class>
     <class>cm.java.jpa.entidades.ComentarioIndexado</class>
     <class>cm.java.jpa.entidades.NoticiaIndexado</class>
+    <class>cm.java.jpa.entidades.CDHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.ItemHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.LivroHerancaTabelaoDiferenciador</class>
+    <class>cm.java.jpa.entidades.CDHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.ItemHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.LivroHerancaJuntada</class>
+    <class>cm.java.jpa.entidades.CDHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.ItemHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.LivroHerancaPorClasse</class>
+    <class>cm.java.jpa.entidades.CDHerancaPorClasseSobrescrita</class>
+    <class>cm.java.jpa.entidades.ItemHerancaPorClasseSobrescrita</class>
+    <class>cm.java.jpa.entidades.LivroHerancaPorClasseSobrescrita</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="two"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -87,7 +111,7 @@
       <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory:cmJavaJPADB;create=true"/>
       <property name="javax.persistence.sql-load-script-source" value="insert.sql"/>
-      <property name="eclipselink.logging.level" value="INFO"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
     </properties>
   </persistence-unit>
 </persistence>

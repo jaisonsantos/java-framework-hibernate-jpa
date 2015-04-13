@@ -5,6 +5,8 @@ ALTER TABLE t_consumidor_11uni_join DROP CONSTRAINT tcnsmdr11njincndrc
 ALTER TABLE t_item_compra_join_column DROP CONSTRAINT ttmcmprjnclctmcmpr
 ALTER TABLE t_item_compra_join_column DROP CONSTRAINT ttmcmprjnclumncrcb
 ALTER TABLE t_item_compra_join_column_2 DROP CONSTRAINT ttmcmprjnclmn2crcb
+ALTER TABLE t_cd_heranca_juntada DROP CONSTRAINT tcdherancajuntadaD
+ALTER TABLE t_livro_heranca_juntada DROP CONSTRAINT tlvrhrancajuntadaD
 ALTER TABLE t_etiquetas DROP CONSTRAINT ttqtasLvrtiquetaID
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttmcmptnsCmprD
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttemcompraRcbD
@@ -42,6 +44,16 @@ DROP TABLE t_noticia_ordenado
 DROP TABLE t_item_tabelao
 DROP TABLE t_comentario_indexado
 DROP TABLE t_noticia_indexado
+DROP TABLE t_item_diferenciador
+DROP TABLE t_item_heranca_juntada
+DROP TABLE t_cd_heranca_juntada
+DROP TABLE t_livro_heranca_juntada
+DROP TABLE t_cd_heranca_por_classe
+DROP TABLE t_item_heranca_por_classe
+DROP TABLE t_livro_heranca_por_classe
+DROP TABLE t_cd_heranca_por_classe_sobrescrita
+DROP TABLE t_item_heranca_por_classe_sobrescrita
+DROP TABLE t_livro_heranca_por_classe_sobrescrita
 DROP TABLE t_etiquetas
 DROP TABLE t_recibo_t_item_compra
 DROP TABLE t_junc_arts_cd
