@@ -1,6 +1,6 @@
 package cm.java.jpa.inicial.test;
 
-import cm.java.jpa.entidades.LivroEtiqueta;
+import cm.java.jpa.entidades.LivroColecaoList;
 import cm.java.jpa.inicial.TestePersistenciaAbstrato;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 
-public class LivroEtiquetasTesteIntegrado extends TestePersistenciaAbstrato {
+public class LivroColecaoListTesteIntegrado extends TestePersistenciaAbstrato {
 
   // ======================================
   // =           Testes Unitários         =
@@ -23,7 +23,7 @@ public class LivroEtiquetasTesteIntegrado extends TestePersistenciaAbstrato {
     etiqueta.add("ficção científica");
     etiqueta.add("tem que comprar");
     etiqueta.add("engraçado");
-      LivroEtiqueta livro = new LivroEtiqueta("Guia do Muchileiro das Galáxias", 12.5F, "O Guia do Mochileiro das Galáxias é uma série de comédia ficção científica criada por Douglas Adams.", "1-84023-742-2", 354, false, etiqueta);
+      LivroColecaoList livro = new LivroColecaoList("Guia do Muchileiro das Galáxias", 12.5F, "O Guia do Mochileiro das Galáxias é uma série de comédia ficção científica criada por Douglas Adams.", "1-84023-742-2", 354, false, etiqueta);
     tx.begin();
     em.persist(livro);
     tx.commit();

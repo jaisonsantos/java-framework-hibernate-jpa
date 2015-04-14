@@ -7,7 +7,7 @@ ALTER TABLE t_item_compra_join_column DROP CONSTRAINT ttmcmprjnclumncrcb
 ALTER TABLE t_item_compra_join_column_2 DROP CONSTRAINT ttmcmprjnclmn2crcb
 ALTER TABLE t_cd_heranca_juntada DROP CONSTRAINT tcdherancajuntadaD
 ALTER TABLE t_livro_heranca_juntada DROP CONSTRAINT tlvrhrancajuntadaD
-ALTER TABLE t_etiquetas DROP CONSTRAINT ttqtasLvrtiquetaID
+ALTER TABLE T_livro_heranca_abstrata DROP CONSTRAINT TlvrhrncaabstrataD
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttmcmptnsCmprD
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttemcompraRcbD
 ALTER TABLE t_junc_arts_cd DROP CONSTRAINT tjunc_arts_cdce_cd
@@ -16,6 +16,8 @@ ALTER TABLE t_noticia_ordenado_t_comentarios_ordenado DROP CONSTRAINT tntcrdndtc
 ALTER TABLE t_noticia_ordenado_t_comentarios_ordenado DROP CONSTRAINT tntcrdndtcNtcrdndD
 ALTER TABLE t_noticia_indexado_t_comentario_indexado DROP CONSTRAINT tntcndxdtcNtcndxdD
 ALTER TABLE t_noticia_indexado_t_comentario_indexado DROP CONSTRAINT tntcndxdtcmcmntrsD
+ALTER TABLE t_etiquetas DROP CONSTRAINT ttqtsLvrClcoListID
+ALTER TABLE t_trilha DROP CONSTRAINT ttrlhaCDClcaoMapID
 DROP TABLE LIVRO
 DROP TABLE PESSOA
 DROP TABLE t_endereco
@@ -27,7 +29,6 @@ DROP TABLE T_Livros
 DROP TABLE t_consumidor
 DROP TABLE t_cartao_credito
 DROP TABLE T_consumidor_metodos
-DROP TABLE T_Livro_Etiqueta
 DROP TABLE t_consumidor_com_endereco
 DROP TABLE t_consumidor_11uni
 DROP TABLE t_consumidor_11uni_join
@@ -54,9 +55,17 @@ DROP TABLE t_livro_heranca_por_classe
 DROP TABLE t_cd_heranca_por_classe_sobrescrita
 DROP TABLE t_item_heranca_por_classe_sobrescrita
 DROP TABLE t_livro_heranca_por_classe_sobrescrita
-DROP TABLE t_etiquetas
+DROP TABLE T_Livro_Heranca_Transiente
+DROP TABLE t_item_heranca_abstrata
+DROP TABLE T_livro_heranca_abstrata
+DROP TABLE t_livro_heranca_supermapeada
+DROP TABLE t_livro_mapeado_xml
+DROP TABLE T_Livro_Etiqueta
+DROP TABLE t_cd_colecao_map
 DROP TABLE t_recibo_t_item_compra
 DROP TABLE t_junc_arts_cd
 DROP TABLE t_noticia_ordenado_t_comentarios_ordenado
 DROP TABLE t_noticia_indexado_t_comentario_indexado
+DROP TABLE t_etiquetas
+DROP TABLE t_trilha
 DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
