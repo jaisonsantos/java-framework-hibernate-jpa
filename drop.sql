@@ -8,6 +8,7 @@ ALTER TABLE t_item_compra_join_column_2 DROP CONSTRAINT ttmcmprjnclmn2crcb
 ALTER TABLE t_cd_heranca_juntada DROP CONSTRAINT tcdherancajuntadaD
 ALTER TABLE t_livro_heranca_juntada DROP CONSTRAINT tlvrhrancajuntadaD
 ALTER TABLE T_livro_heranca_abstrata DROP CONSTRAINT TlvrhrncaabstrataD
+ALTER TABLE t_consumidor_manip DROP CONSTRAINT tcnsmdrmanipcndrco
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttmcmptnsCmprD
 ALTER TABLE t_recibo_t_item_compra DROP CONSTRAINT trcbttemcompraRcbD
 ALTER TABLE t_junc_arts_cd DROP CONSTRAINT tjunc_arts_cdce_cd
@@ -62,6 +63,8 @@ DROP TABLE t_livro_heranca_supermapeada
 DROP TABLE t_livro_mapeado_xml
 DROP TABLE T_Livro_Etiqueta
 DROP TABLE t_cd_colecao_map
+DROP TABLE t_consumidor_manip
+DROP TABLE t_endereco_manip
 DROP TABLE t_recibo_t_item_compra
 DROP TABLE t_junc_arts_cd
 DROP TABLE t_noticia_ordenado_t_comentarios_ordenado

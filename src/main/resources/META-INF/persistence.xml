@@ -50,6 +50,8 @@
     <class>cm.java.jpa.entidades.LivroMapeadoPeloXML</class>
     <class>cm.java.jpa.entidades.LivroColecaoList</class>
     <class>cm.java.jpa.entidades.CDColecaoMap</class>
+    <class>cm.java.jpa.consultas.ConsumidorManip</class>
+    <class>cm.java.jpa.consultas.EnderecoManip</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="one"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -114,6 +116,8 @@
     <class>cm.java.jpa.entidades.LivroMapeadoPeloXML</class>
     <class>cm.java.jpa.entidades.LivroColecaoList</class>
     <class>cm.java.jpa.entidades.CDColecaoMap</class>
+    <class>cm.java.jpa.consultas.ConsumidorManip</class>
+    <class>cm.java.jpa.consultas.EnderecoManip</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="two"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
