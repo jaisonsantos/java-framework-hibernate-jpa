@@ -69,6 +69,14 @@ DROP TABLE t_consumidor_consulta
 DROP TABLE t_endereco_consulta
 DROP TABLE t_livro_consulta
 DROP TABLE t_recibo
+DROP TABLE T_LIVRO_STPROC
+DROP TABLE t_consumidor_cache
+DROP TABLE t_endereco_cache
+DROP TABLE t_livro_cache
+DROP TABLE t_livro_versao
+DROP TABLE T_CONSUMIDOR_VALIDADO
+DROP TABLE t_consumidor_valid_ouvinte
+DROP TABLE t_consumidor_ciclo_vida
 DROP TABLE t_junc_arts_cd
 DROP TABLE t_noticia_ordenado_t_comentarios_ordenado
 DROP TABLE t_noticia_indexado_t_comentario_indexado

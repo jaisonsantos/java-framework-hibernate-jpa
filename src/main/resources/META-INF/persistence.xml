@@ -55,6 +55,15 @@
     <class>cm.java.jpa.consultas.ConsumidorConsultas</class>
     <class>cm.java.jpa.consultas.EnderecoConsultas</class>
     <class>cm.java.jpa.consultas.LivroConsultas</class>
+    <class>cm.java.jpa.consultas.LivrosProcedimentoArmazenado</class>
+    <class>cm.java.jpa.consultas.ConsumidorCache</class>
+    <class>cm.java.jpa.consultas.EnderecoSemCache</class>
+    <class>cm.java.jpa.consultas.LivroSemCache</class>
+    <class>cm.java.jpa.consultas.LivroVersao</class>
+    <class>cm.java.jpa.consultas.ConsumidorValidado</class>
+    <class>cm.java.jpa.consultas.ConsumidorValidadoComOuvinte</class>
+    <class>cm.java.jpa.consultas.ConsumidorCicloVida</class>
+    <class>cm.java.jpa.consultas.PessoaCicloVida</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="one"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -124,6 +133,15 @@
     <class>cm.java.jpa.consultas.EnderecoConsultas</class>
     <class>cm.java.jpa.consultas.LivroConsultas</class>
     <class>cm.java.jpa.entidades.Recibo</class>
+    <class>cm.java.jpa.consultas.LivrosProcedimentoArmazenado</class>
+    <class>cm.java.jpa.consultas.ConsumidorCache</class>
+    <class>cm.java.jpa.consultas.EnderecoSemCache</class>
+    <class>cm.java.jpa.consultas.LivroSemCache</class>
+    <class>cm.java.jpa.consultas.LivroVersao</class>
+    <class>cm.java.jpa.consultas.ConsumidorValidado</class>
+    <class>cm.java.jpa.consultas.ConsumidorValidadoComOuvinte</class>
+    <class>cm.java.jpa.consultas.ConsumidorCicloVida</class>
+    <class>cm.java.jpa.consultas.PessoaCicloVida</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="two"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
