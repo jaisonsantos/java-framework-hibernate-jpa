@@ -4,6 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade LivroSemCache
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_cache")
 public class LivroSemCache {

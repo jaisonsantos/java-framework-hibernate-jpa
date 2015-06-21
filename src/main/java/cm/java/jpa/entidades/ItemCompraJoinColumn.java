@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ItemCompraJoinColum
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_item_compra_join_column_2")
 public class ItemCompraJoinColumn {

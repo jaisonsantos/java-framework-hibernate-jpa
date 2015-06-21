@@ -3,6 +3,10 @@ package cm.java.jpa.consultas;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 
+/**
+ * Contém os atributos e construtores da entidade OuvinteValidacaoData
+ * @author jaison.santos
+ */
 public class OuvinteValidacaoData {
 
     // ======================================

@@ -8,7 +8,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-
+/**
+ * Contém os atributos e construtores da entidade Recibo
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_recibo")
 public class Recibo {

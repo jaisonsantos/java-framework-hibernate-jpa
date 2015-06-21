@@ -2,7 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.*;
 
-
+/**
+ * Contém os atributos e construtores da entidade Endereco
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_endereco")
 @SecondaryTables({

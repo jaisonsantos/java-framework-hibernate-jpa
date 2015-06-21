@@ -6,7 +6,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-
+/**
+ * Classe responsável pelo teste unitario de TrilhaMusicaTesteIntegridade
+ * @author jaison.santos
+ */
 public class TrilhaMusicaTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

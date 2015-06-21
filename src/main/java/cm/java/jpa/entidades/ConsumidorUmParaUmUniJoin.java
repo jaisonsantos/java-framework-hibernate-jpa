@@ -8,6 +8,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ConsumidorUmParaUmUniJoin
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_consumidor_11uni_join")
 public class ConsumidorUmParaUmUniJoin {

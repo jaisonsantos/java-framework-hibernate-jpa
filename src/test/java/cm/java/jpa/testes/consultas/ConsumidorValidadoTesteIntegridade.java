@@ -11,6 +11,10 @@ import java.util.GregorianCalendar;
 
 import static org.junit.Assert.*;
 
+/**
+ * Classe que contém os testes unitários ConsumidorValidadoTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorValidadoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

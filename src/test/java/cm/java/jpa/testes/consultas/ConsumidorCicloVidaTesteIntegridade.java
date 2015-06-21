@@ -7,6 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Classe que contém os testes unitários ConsumidorCicloVidaTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorCicloVidaTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

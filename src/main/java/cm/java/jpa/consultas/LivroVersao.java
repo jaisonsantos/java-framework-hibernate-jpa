@@ -6,6 +6,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
+/**
+ * Contém os atributos e construtores da entidade LivroVersao
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_versao")
 public class LivroVersao {

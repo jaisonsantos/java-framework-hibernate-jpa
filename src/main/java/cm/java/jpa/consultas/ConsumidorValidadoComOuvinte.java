@@ -10,6 +10,10 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
+/**
+ * Contém os atributos e construtores da entidade ConsumidorValidadoComOuvinte
+ * @author jaison.santos
+ */
 @EntityListeners({OuvinteValidacaoData.class, OuvinteCalculoIdade.class})
 @Entity
 @Table(name = "t_consumidor_valid_ouvinte")

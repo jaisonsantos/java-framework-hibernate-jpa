@@ -2,6 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.Entity;
 
+/**
+ * Contém os atributos e construtores da entidade CDHerancaTabelao
+ * @author jaison.santos
+ */
 @Entity
 public class CDHerancaTabelao extends ItemHerancaTabelao {
 

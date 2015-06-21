@@ -7,7 +7,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
-
+/**
+ * Classe responsável pelo teste unitario de CartaoCreditoTesteIntegridade
+ * @author jaison.santos
+ */
 public class CartaoCreditoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

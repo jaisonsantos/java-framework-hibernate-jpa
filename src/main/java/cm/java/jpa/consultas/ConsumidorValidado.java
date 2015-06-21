@@ -16,6 +16,10 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
+/**
+ * Contém os atributos e construtores da entidade ConsumidorValidado
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_CONSUMIDOR_VALIDADO")
 public class ConsumidorValidado {

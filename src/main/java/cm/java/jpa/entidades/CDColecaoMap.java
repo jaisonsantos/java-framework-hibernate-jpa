@@ -12,6 +12,10 @@ import javax.persistence.Lob;
 import javax.persistence.MapKeyColumn;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade da tabela coleção de cd
+ * @author jaison
+ */
 @Entity
 @Table(name = "t_cd_colecao_map")
 public class CDColecaoMap {

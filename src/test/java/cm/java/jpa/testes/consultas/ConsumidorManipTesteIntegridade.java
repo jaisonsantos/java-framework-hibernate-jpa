@@ -10,6 +10,10 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
+/**
+ * Classe que contém os testes unitários ConsumidorManipTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorManipTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

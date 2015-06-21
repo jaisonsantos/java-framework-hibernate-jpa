@@ -6,7 +6,10 @@ import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade CartaoCredito
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_cartao_credito")
 public class CartaoCredito {

@@ -9,7 +9,10 @@ import java.util.ArrayList;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-
+/**
+ * Classe responsável pelo teste unitario de LivroColecaoListTesteIntegridade
+ * @author jaison.santos
+ */
 public class LivroColecaoListTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

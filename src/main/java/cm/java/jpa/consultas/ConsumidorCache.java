@@ -7,7 +7,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-
+/**
+ * Contém os atributos e construtores da entidade ConsumidorCache
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_consumidor_cache")
 @Cacheable(true)

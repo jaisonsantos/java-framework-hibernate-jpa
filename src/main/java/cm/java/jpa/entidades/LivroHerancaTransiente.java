@@ -4,7 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores do POJO LivroHerancaTransiente
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_Livro_Heranca_Transiente")
 public class LivroHerancaTransiente extends ItemHerancaTransiente {

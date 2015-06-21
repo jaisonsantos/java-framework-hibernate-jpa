@@ -5,7 +5,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade ItemHerancaTabelao
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_item_tabelao")
 public class ItemHerancaTabelao {

@@ -7,6 +7,10 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ItemHerancaAbstrata
+ * @author jaison.santos
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "t_item_heranca_abstrata")

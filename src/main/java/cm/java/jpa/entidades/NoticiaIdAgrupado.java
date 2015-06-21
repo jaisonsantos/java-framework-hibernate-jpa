@@ -1,7 +1,10 @@
 package cm.java.jpa.entidades;
 
 import javax.persistence.Embeddable;
-
+/**
+ * Contém os atributos e construtores da entidade Embutida NoticiaIdAgrupado
+ * @author jaison.santos
+ */
 @Embeddable
 public class NoticiaIdAgrupado {
 

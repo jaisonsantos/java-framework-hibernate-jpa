@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade EnderecoMainp
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_endereco_manip")
 public class EnderecoManip {

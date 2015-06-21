@@ -2,7 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-
+/**
+ * Contém os atributos e construtores da entidade LivroHerancaTabelaoDiferenciador
+ * @author jaison.santos
+ */
 @Entity
 @DiscriminatorValue("L")
 public class LivroHerancaTabelaoDiferenciador extends ItemHerancaTabelaoDiferenciador {

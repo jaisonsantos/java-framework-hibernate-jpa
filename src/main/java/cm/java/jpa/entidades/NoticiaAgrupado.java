@@ -4,7 +4,10 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade NoticiaAgrupado
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "noticias")
 public class NoticiaAgrupado {

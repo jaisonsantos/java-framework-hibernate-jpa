@@ -3,6 +3,10 @@ package cm.java.jpa.entidades;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade CDHerancaPorClasse
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_cd_heranca_por_classe")
 public class CDHerancaPorClasse extends ItemHerancaPorClasse {

@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade LivroConsultas
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_consulta")
 public class LivroConsultas {

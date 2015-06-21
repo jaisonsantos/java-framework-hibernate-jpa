@@ -11,7 +11,10 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-
+/**
+ * Contém os atributos e construtores da entidade ReciboJoinTable
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_recibo_join_column")
 public class ReciboJoinTable {

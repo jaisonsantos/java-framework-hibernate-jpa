@@ -5,7 +5,10 @@ import javax.persistence.AttributeOverrides;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade LivroHerancaPorClasseSobrescrita
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_heranca_por_classe_sobrescrita")
 @AttributeOverrides({

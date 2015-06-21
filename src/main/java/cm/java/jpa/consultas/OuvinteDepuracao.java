@@ -8,6 +8,10 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreRemove;
 import javax.persistence.PreUpdate;
 
+/**
+ * Contém os atributos e construtores da entidade OuvinteDepuracao
+ * @author jaison.santos
+ */
 public class OuvinteDepuracao {
 
     // ======================================

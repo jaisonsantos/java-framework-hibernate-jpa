@@ -7,6 +7,10 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ItemHerancaPorClasse
+ * @author jaison.santos
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Table(name = "t_item_heranca_por_classe")

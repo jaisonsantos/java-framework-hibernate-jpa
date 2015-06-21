@@ -8,6 +8,10 @@ import static junit.framework.Assert.assertNotNull;
 
 import org.junit.Test;
 
+/**
+ * Classe responsável pelo teste unitario de PessoaTesteIntegridade
+ * @author jaison.santos
+ */
 public class PessoaTesteIntegridade extends TestePersistenciaAbstrato{
 
   // ======================================

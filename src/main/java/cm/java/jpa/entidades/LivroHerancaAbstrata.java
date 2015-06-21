@@ -2,7 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade LivroHerancaAbstrata
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_livro_heranca_abstrata")
 public class LivroHerancaAbstrata extends ItemHerancaAbstrata {

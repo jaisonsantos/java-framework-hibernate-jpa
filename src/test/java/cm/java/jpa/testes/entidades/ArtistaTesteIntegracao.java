@@ -6,7 +6,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * Classe responsável pelo teste unitario de ArtistaTesteIntegracao
+ * @author jaison.santos
+ */
 public class ArtistaTesteIntegracao extends TestePersistenciaAbstrato {
 
   // ======================================

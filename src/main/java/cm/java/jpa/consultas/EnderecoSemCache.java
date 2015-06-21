@@ -6,7 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade EnderecoSemCache
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_endereco_cache")
 @Cacheable(false)

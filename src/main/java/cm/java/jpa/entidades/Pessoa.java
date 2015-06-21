@@ -7,7 +7,10 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.validation.constraints.NotNull;
-
+/**
+ * Contém os atributos e construtores da entidade Pessoa
+ * @author jaison.santos
+ */
 @Entity
 @NamedQueries({
     @NamedQuery(name = "encontreTodasPessoas",

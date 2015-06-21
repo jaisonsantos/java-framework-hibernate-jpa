@@ -9,7 +9,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-
+/**
+ * Contém os atributos e construtores da entidade ConsumidorPorMetodos
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_consumidor_metodos")
 @Access(AccessType.FIELD)

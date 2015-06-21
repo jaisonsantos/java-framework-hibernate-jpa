@@ -10,6 +10,10 @@ import java.util.GregorianCalendar;
 import static java.util.Calendar.DAY_OF_YEAR;
 import static java.util.Calendar.YEAR;
 
+/**
+ * Contém os atributos e construtores da entidade OuvinteCalculoIdade
+ * @author jaison.santos
+ */
 public class OuvinteCalculoIdade {
 
     // ======================================

@@ -10,6 +10,10 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ItemHerancaTabelaoDiferenciador
+ * @author jaison.santos
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "diferenciador", discriminatorType = DiscriminatorType.CHAR)

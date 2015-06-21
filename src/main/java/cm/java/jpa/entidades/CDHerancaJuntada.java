@@ -3,6 +3,11 @@ package cm.java.jpa.entidades;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+
+/**
+ * Contém os atributos e construtores da entidade cdHerancaJuntada
+ * @author jaison
+ */
 @Entity
 @Table(name = "t_cd_heranca_juntada")
 public class CDHerancaJuntada extends ItemHerancaJuntada {

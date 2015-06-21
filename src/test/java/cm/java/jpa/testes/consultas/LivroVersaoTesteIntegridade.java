@@ -9,6 +9,10 @@ import javax.persistence.LockModeType;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * Classe que contém os testes unitários LivroVersaoTesteIntegridade
+ * @author jaison.santos
+ */
 public class LivroVersaoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

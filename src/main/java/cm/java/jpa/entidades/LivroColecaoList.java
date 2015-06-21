@@ -12,7 +12,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade LivroColecaoList
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_Livro_Etiqueta")
 public class LivroColecaoList {

@@ -2,7 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade LivroHerancaSuperMapeada
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_heranca_supermapeada")
 public class LivroHerancaSuperMapeada extends ItemHerancaSuperMapeada {

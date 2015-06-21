@@ -8,7 +8,10 @@ import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * Classe responsável pelo teste unitario de CDColecaoMapTesteIntegridade
+ * @author jaison.santos
+ */
 public class CDColecaoMapTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

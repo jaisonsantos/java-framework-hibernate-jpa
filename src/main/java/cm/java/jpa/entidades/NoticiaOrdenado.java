@@ -11,7 +11,10 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade NoticiaOrdenacao
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_noticia_ordenado")
 public class NoticiaOrdenado {

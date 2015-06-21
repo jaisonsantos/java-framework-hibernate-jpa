@@ -4,7 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+/**
+ * Contém os atributos e construtores da entidade Livro
+ * @author jaison.santos
+ */
 @Entity
 public class Livro {
 

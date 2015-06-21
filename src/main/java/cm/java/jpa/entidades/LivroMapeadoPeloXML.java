@@ -6,7 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade LivroMapeadoPeloXML
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_livro_mapeado_xml")
 public class LivroMapeadoPeloXML {

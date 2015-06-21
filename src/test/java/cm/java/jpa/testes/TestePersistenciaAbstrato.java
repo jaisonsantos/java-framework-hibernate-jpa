@@ -11,7 +11,7 @@ import org.junit.Before;
 
 /**
  * Classe que realiza a conexão com o banco de dados de teste
- * @author brunopenha
+ * @author jaison.santos
  */
 public abstract class TestePersistenciaAbstrato {
 

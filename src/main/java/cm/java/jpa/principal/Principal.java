@@ -8,6 +8,10 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
+/**
+ * Classe Principal onde são executadas as instâncias com objetos preenchidos.
+ * @author jaison.santos
+ */
 public class Principal {
 
     public static void main(String args[]) {

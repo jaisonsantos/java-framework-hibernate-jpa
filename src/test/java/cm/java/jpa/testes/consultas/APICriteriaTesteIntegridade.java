@@ -18,6 +18,10 @@ import javax.persistence.metamodel.EntityType;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * classe que contém os testes unitários 
+ * @author jaison.santos
+ */
 public class APICriteriaTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

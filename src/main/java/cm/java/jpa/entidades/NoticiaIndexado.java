@@ -11,7 +11,10 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderColumn;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade NoticiaIndexado
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_noticia_indexado")
 public class NoticiaIndexado {

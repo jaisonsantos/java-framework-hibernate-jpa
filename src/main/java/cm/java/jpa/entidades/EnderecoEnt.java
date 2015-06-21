@@ -4,7 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Contém os atributos e construtores da entidade EnderecoEnt
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_endereco")
 public class EnderecoEnt {

@@ -9,7 +9,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade ConsumidorComEndereco
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_consumidor_com_endereco")
 @Access(AccessType.FIELD)

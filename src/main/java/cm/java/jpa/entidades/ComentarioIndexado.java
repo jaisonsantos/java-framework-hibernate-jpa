@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ComentarioIndexado
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_comentario_indexado")
 public class ComentarioIndexado {

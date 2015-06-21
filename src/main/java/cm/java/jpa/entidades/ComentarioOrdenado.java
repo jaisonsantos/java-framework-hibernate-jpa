@@ -12,6 +12,10 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+/**
+ * Contém os atributos e construtores da entidade ComantarioOrdenado
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_comentarios_ordenado")
 public class ComentarioOrdenado {

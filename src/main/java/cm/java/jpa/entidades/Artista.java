@@ -10,7 +10,10 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-
+/**
+ *  Contém os atributos e construtores da entidade da tabela Artista
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_artistas")
 public class Artista {

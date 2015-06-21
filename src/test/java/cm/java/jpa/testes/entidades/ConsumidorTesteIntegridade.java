@@ -8,7 +8,10 @@ import java.util.Date;
 
 import static org.junit.Assert.assertNotNull;
 
-
+/**
+ * Classe responsável pelo teste unitario de ConsumidorTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

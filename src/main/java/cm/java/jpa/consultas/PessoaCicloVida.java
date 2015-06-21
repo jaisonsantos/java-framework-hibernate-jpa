@@ -1,15 +1,20 @@
 package cm.java.jpa.consultas;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade PessoaCicloVida
+ * @author jaison.santos
+ */
 @EntityListeners(OuvinteDepuracao.class)
 @Entity
 @Table(name = "t_consumidor_ciclo_vida")
-public class PessoaCicloVida {
+public class PessoaCicloVida implements Serializable {
 
     // ======================================
     // =             Atributos              =

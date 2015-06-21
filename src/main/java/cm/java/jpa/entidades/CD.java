@@ -8,7 +8,10 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade da tabela cd
+ * @author jaison
+ */    
 @Entity
 @Table(name = "t_cd")
 public class CD {

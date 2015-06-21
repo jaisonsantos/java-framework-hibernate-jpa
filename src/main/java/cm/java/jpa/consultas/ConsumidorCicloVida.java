@@ -5,6 +5,10 @@ import javax.persistence.EntityListeners;
 import javax.persistence.ExcludeSuperclassListeners;
 import javax.persistence.Transient;
 
+/**
+ * Contém os atributos e construtores da entidade ConsumidorCicloVida
+ * @author jaison.santos
+ */
 @ExcludeSuperclassListeners()
 @EntityListeners(OuvinteConsumidor.class)
 @Entity

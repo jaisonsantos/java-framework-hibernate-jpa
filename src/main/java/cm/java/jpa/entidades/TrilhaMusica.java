@@ -10,8 +10,10 @@ import javax.persistence.Lob;
 import javax.persistence.Table;
 
 
-
-
+/**
+ * Contém os atributos e construtores da entidade TrilhaMusica
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_Trilha_Musica")
 public class TrilhaMusica {

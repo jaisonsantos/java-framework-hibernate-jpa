@@ -8,6 +8,10 @@ import java.util.Date;
 
 import static org.junit.Assert.*;
 
+/**
+ * Classe que contém os testes unitários ConsumidorValidadoComOuvinteTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorValidadoComOuvinteTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

@@ -6,6 +6,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade CDHerancaPorClasse
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_cd_heranca_por_classe_sobrescrita")
 @AttributeOverrides({

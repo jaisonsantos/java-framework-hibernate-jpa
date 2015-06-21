@@ -7,6 +7,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
+/**
+ * Classe responsável pelo teste unitario de ConsumidorUmParaUmUniJoinTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorUmParaUmUniJoinTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

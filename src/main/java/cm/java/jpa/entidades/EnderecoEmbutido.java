@@ -5,6 +5,10 @@ import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
+/**
+ * Contém os atributos e construtores da entidade embutida EnderecoEmbutido
+ * @author jaison.santos
+ */
 @Embeddable
 @Access(AccessType.PROPERTY)
 public class EnderecoEmbutido {

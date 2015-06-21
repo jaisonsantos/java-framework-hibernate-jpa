@@ -6,7 +6,10 @@ import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade NoticiaClasseId
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "noticias")
 @IdClass(NoticiaIdClasseId.class)

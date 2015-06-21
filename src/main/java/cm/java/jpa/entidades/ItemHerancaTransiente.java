@@ -1,5 +1,9 @@
 package cm.java.jpa.entidades;
 
+/**
+ * Contém os atributos e construtores da entidade ItemHerancaTransiente
+ * @author jaison.santos
+ */
 public class ItemHerancaTransiente {
 
   // ======================================

@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade ConsumidorUmParamUmUni
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_consumidor_11uni")
 public class ConsumidorUmParaUmUni {

@@ -10,7 +10,10 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * Classe responsável pelo teste unitario de ReciboJoinColumnTesteIntegridade
+ * @author jaison.santos
+ */
 public class ReciboJoinColumnTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

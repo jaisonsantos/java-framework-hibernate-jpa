@@ -6,7 +6,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * Classe responsável pelo teste unitario de ConsumidorEnderecoTesteIntegridade
+ * @author jaison.santos
+ */
 public class ConsumidorEnderecoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

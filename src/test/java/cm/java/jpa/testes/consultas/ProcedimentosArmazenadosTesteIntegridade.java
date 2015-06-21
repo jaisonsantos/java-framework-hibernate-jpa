@@ -1,13 +1,16 @@
 package cm.java.jpa.testes.consultas;
 
 import cm.java.jpa.testes.TestePersistenciaAbstrato;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureQuery;
 import java.util.Date;
 
+/**
+ * Classe que contém os testes unitários ProcedimentosArmazenadosTesteIntegridade
+ * @author jaison.santos
+ */
 public class ProcedimentosArmazenadosTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

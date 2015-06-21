@@ -5,7 +5,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * Classe responsável pelo teste unitario de ItemHerancaTransienteTesteIntegridade
+ * @author jaison.santos
+ */
 public class ItemHerancaTransienteTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

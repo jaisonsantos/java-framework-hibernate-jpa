@@ -8,7 +8,10 @@ import javax.persistence.InheritanceType;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade IntemHerancaSuperMapeada
+ * @author jaison.santos
+ */
 @MappedSuperclass
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "t_item_heranca_supermapeada")

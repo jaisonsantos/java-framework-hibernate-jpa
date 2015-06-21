@@ -1,5 +1,9 @@
 package cm.java.jpa.consultas;
 
+/**
+ * Contém os atributos e construtores da do pojo ConsumidorDTO
+ * @author jaison.santos
+ */
 public class ConsumidorDTO {
 
   // ======================================

@@ -9,7 +9,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-
+/**
+ * Contém os atributos e construtores da entidade ConsumidorMainp
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "t_consumidor_manip")
 public class ConsumidorManip {

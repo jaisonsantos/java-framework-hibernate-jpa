@@ -9,6 +9,10 @@ import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 
+/**
+ * Contém os atributos e construtores da entidade LivrosProcedimentoArmazenado
+ * @author jaison.santos
+ */
 @Entity
 @NamedStoredProcedureQuery(name = "arquivarLivrosVelhos", procedureName = "pa_arquivar_livros",
         parameters = {

@@ -2,7 +2,10 @@ package cm.java.jpa.entidades;
 
 import javax.persistence.*;
 
-
+/**
+ * Contém os atributos e construtores da entidade LivroColumn
+ * @author jaison.santos
+ */
 @Entity
 @Table(name = "T_Livros")
 public class LivroColumn {

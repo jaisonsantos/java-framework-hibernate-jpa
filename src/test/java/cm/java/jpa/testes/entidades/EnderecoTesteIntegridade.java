@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * Classe responsável pelo teste unitario de EnderecoTesteIntegridade
+ * @author jaison.santos
+ */
 public class EnderecoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

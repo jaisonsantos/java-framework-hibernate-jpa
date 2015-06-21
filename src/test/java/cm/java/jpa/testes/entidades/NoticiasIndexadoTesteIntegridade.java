@@ -6,7 +6,10 @@ import cm.java.jpa.testes.TestePersistenciaAbstrato;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
+/**
+ * Classe responsável pelo teste unitario de NoticiasIndexadoTesteIntegridade
+ * @author jaison.santos
+ */
 public class NoticiasIndexadoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

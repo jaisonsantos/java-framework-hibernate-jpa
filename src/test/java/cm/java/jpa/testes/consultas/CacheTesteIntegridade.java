@@ -12,6 +12,10 @@ import javax.persistence.Cache;
 
 import static org.junit.Assert.*;
 
+/**
+ * Classe que contém os testes unitários CacheTesteIntegridade
+ * @author jaison
+ */
 public class CacheTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

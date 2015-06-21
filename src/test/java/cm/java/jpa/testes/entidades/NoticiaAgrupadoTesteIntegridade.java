@@ -7,7 +7,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-
+/**
+ * Classe responsável pelo teste unitario de NoticiaAgrupadoTesteIntegridade
+ * @author jaison.santos
+ */
 public class NoticiaAgrupadoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

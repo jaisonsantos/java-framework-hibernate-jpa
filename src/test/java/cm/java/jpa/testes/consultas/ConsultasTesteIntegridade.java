@@ -12,6 +12,10 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Classe que contém os testes unitários ConsultasTesteIntegridade
+ * @author jaison
+ */
 public class ConsultasTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================

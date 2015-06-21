@@ -8,6 +8,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * Classe responsável pelo teste unitario de ItemHerancaTabelaoTesteIntegridade
+ * @author jaison.santos
+ */
 public class ItemHerancaTabelaoTesteIntegridade extends TestePersistenciaAbstrato {
 
   // ======================================
