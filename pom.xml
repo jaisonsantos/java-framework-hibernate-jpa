@@ -13,7 +13,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         
-        <version.hibernate.validator>5.3.5.Final</version.hibernate.validator>
+        <version.hibernate.validator>5.3.6.Final</version.hibernate.validator>
         
         <!-- Teste -->
         <skipTests>false</skipTests>
